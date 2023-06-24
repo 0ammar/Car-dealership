@@ -499,12 +499,12 @@ header .navbar a:hover {
 /* Contact Form End */
 /* Footer Start */
 footer {
-  background: var(--main);
+  background: var(--secoend);
   padding: 2rem;
   text-align: center;
 }
 footer a {
-  color: var(--secoend);
+  color: var(--main);
   font-size: 2.1rem;
 }
 /* Footer End */
