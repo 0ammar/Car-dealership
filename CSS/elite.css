@@ -95,6 +95,8 @@ header .navbar a:hover {
 }
 #LoginBtn .btn {
   margin-top: 0;
+  background-color: var(--secoend);
+  color: var(--main);
 }
 #LoginBtn i {
   color: var(--main);
@@ -208,7 +210,7 @@ header .navbar a:hover {
   transform: translateY(-100px);
 }
 .landing h3 {
-  font-size: 40px;
+  font-size: 35px;
   margin: 0 0 10px;
   text-transform: uppercase;
   color: var(--white);
@@ -352,8 +354,8 @@ header .navbar a:hover {
 /* Services Section Start */
 .services .boxContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+  gap: 3rem;
 }
 .services .boxContainer .box {
   box-shadow: var(--box_shadow);
@@ -383,10 +385,7 @@ header .navbar a:hover {
 /* Services Section End */
 /* Newsletter Start */
 .newsletter {
-  background: url(./images/newletter.png) no-repeat;
-  background-size: cover;
-  background-position: center;
-  text-align: center;
+  position: relative;
 }
 .newsletter h3 {
   color: #fff;
@@ -460,7 +459,7 @@ header .navbar a:hover {
 /* Review Section End */
 /* Contact Form Start */
 .contact {
-  margin-bottom: 200px;
+  margin-bottom: 50px;
 }
 .contact .row {
   display: flex;

@@ -7,7 +7,7 @@ MenuBtn.onclick = () => {
 window.onscroll = () => {
   MenuBtn.classList.remove("fa-times");
   Navbar.classList.remove("active");
-  ThemeToggle.classList.remove("active");
+  // ThemeToggle.classList.remove("active");
 };
 // Login Form
 document.querySelector("#LoginBtn").onclick = () => {
@@ -112,16 +112,16 @@ var swiper = new Swiper(".ReviewSlider", {
   },
 });
 // Theme Toggle
-let ThemeToggle = document.querySelector(".themeToggle");
-let ToggleBtn = document.querySelector(".ToggleBtn");
-ToggleBtn.onclick = () => {
-  ThemeToggle.classList.toggle("active");
-  Menu.classList.remove("fa-times");
-  Navbar.classList.remove("active");
-};
-document.querySelectorAll(".themeToggle .themeBtn").forEach((btn) => {
-  btn.onclick = () => {
-    let color = btn.style.background;
-    document.querySelector(":root").style.setProperty("--main", color);
-  };
-});
+// let ThemeToggle = document.querySelector(".themeToggle");
+// let ToggleBtn = document.querySelector(".ToggleBtn");
+// ToggleBtn.onclick = () => {
+//   ThemeToggle.classList.toggle("active");
+//   Menu.classList.remove("fa-times");
+//   Navbar.classList.remove("active");
+// };
+// document.querySelectorAll(".themeToggle .themeBtn").forEach((btn) => {
+//   btn.onclick = () => {
+//     let color = btn.style.background;
+//     document.querySelector(":root").style.setProperty("--main", color);
+//   };
+// });
