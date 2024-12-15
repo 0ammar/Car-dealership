@@ -49,4 +49,4 @@ Feel free to reach out to me via my email: **oammar@outlook.sa**
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/0ammar/Car-Dealership.git
+   git clone https://github.com/0ammar/Car-dealership.git
